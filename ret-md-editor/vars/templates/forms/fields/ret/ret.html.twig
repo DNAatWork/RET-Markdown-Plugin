@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="{{ base_url_absolute }}/user/plugins/ret-md-editor/files/css/editormd.css"></link>
+
+
+<style>
+
+.RetMdEditorPlugin {
+	/* position: relative; */
+	display: block;
+
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+}
+</style>
+
+
+<script src="{{ base_url_absolute }}/user/plugins/ret-md-editor/files/editormd.js"></script>
+<script src="{{ base_url_absolute }}/user/plugins/ret-md-editor/files/languages/en.js"></script>
+<script type="text/javascript">
+		$(function() {
+				var testEditor = editormd("editormd", {
+						//width            : "98%",
+						height           : "720",
+						//autoHeight       : true,
+						watch            : true,
+						toolbar          : true,
+						codeFold         : false,
+						searchReplace    : true,
+						placeholder      : "Enjoy coding!",
+						path             : '{{ base_url_absolute }}/user/plugins/ret-md-editor/files/lib/',
+						///theme : "dark",
+					//	previewTheme : "dark",
+						//editorTheme : "pastel-on-dark",
+						//markdown : md,
+						help:true,
+					 codeFold : false,
+					 syncScrolling : true,
+					 // saveHTMLToTextarea : true,    // 保存 HTML 到 Textarea
+						searchReplace : true,
+						//watch : false,                // 关闭实时预览
+						//htmlDecode : "style,script,iframe|on*",            // 开启 HTML 标签解析，为了安全性，默认不开启
+						//previewCodeHighlight : false, // 关闭预览 HTML 的代码块高亮，默认开启
+						emoji : true,
+						taskList : false,
+						tocm            : true,         // Using [TOCM]
+						tex : true,                   // 开启科学公式TeX语言支持，默认关闭
+						flowChart : true,             // 开启流程图支持，默认关闭
+						sequenceDiagram : false,       // 开启时序/序列图支持，默认关闭,
+						dialogLockScreen : false,   // 设置弹出层对话框不锁屏，全局通用，默认为true
+						dialogShowMask : false,     // 设置弹出层对话框显示透明遮罩层，全局通用，默认为true
+						dialogDraggable : false,    // 设置弹出层对话框不可拖动，全局通用，默认为true
+						dialogMaskOpacity : 0.4,    // 设置透明遮罩层的透明度，全局通用，默认值为0.1
+						dialogMaskBgColor : "#000", // 设置透明遮罩层的背景颜色，全局通用，默认为#fff
+					 //imageUpload : true,
+					 // imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+					 // imageUploadURL : "./php/upload.php",
+						onload : function() {
+								console.log('onload', this);
+								//this.fullscreen();
+								//this.unwatch();
+								//this.watch().fullscreen();
+								//this.setMarkdown("#PHP");
+								//this.width("100%");
+								//this.height(480);
+								this.resize("100%", 640);
+						}
+
+				});
+
+		});
+</script>
+
+
+
+
+
+{% set value = (value is null ? field.default|tu : value) %}
+{% if not codemirrorOptions %}
+    {% set codemirrorOptions = {'mode': 'gfm', 'ignore': ['code', 'preview']}|merge(field.codemirror|default({})) %}
+{% endif %}
+
+{% block label %}
+    {% if field.label %}
+        {% set hint = field.help ? 'data-hint="' ~ field.help|tu|raw ~ '"': '' %}
+        <div class="" {{ hint }}>{{ field.label|tu|raw }}</div>
+    {% endif %}
+{% endblock %}
+{% block field %}
+    <div class="RetMdEditorPlugin">
+			<div id="editormd">
+					<textarea class="editormd"
+style="display:none;"
+					name="{{ (scope ~ field.name)|fieldName }}"
+{% if field.disabled or isDisabledToggleable %}disabled="disabled"{% endif %}
+{% if field.placeholder %}placeholder="{{ field.placeholder|tu }}"{% endif %}
+{% if field.autofocus in ['on', 'true', 1] %}autofocus="autofocus"{% endif %}
+{% if field.novalidate in ['on', 'true', 1] %}novalidate="novalidate"{% endif %}
+{% if field.readonly in ['on', 'true', 1] %}readonly="readonly"{% endif %}
+{% if field.validate.required in ['on', 'true', 1] %}required="required"{% endif %}
+>{{ value|join("\n")|e("html") }}</textarea>
+
+</div>
+    </div>
+{% endblock %}

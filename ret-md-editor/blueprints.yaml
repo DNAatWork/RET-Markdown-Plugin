@@ -1,0 +1,31 @@
+name: ReT Md Editor
+version: 0.1.0
+description: REader Text-editor (ReT.md), is a markdown editor plugin for grav themes, inspired from TinyMCE Editor grav plugin and pandao/editor.md.
+icon:   edit
+author:
+  name:   Carlos Vega
+  url:    https://carlosvega.me/
+homepage: https://carlosvegame.github.io/RET-Markdown-Plugin/
+demo:     https://carlosvegame.github.io/RET-Markdown-Plugin/demo/index.html
+keywords: grav, plugin, etc
+bugs:     https://github.com/CarlosVegaMe/RET-Markdown-Plugin/issues
+docs:     https://github.com/CarlosVegaMe/RET-Markdown-Plugin/wiki/
+license:  MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: Text Variable
+      help: Text to add to the top of a page
