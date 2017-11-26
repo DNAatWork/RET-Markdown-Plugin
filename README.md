@@ -1,7 +1,7 @@
 <!-- HTML CODE-->
-<link type="text/css" rel="stylesheet" href="http://sachinchoolur.github.io/lightslider/dist/css/lightslider.min.css" />
+<link type="text/css" rel="stylesheet" href="//sachinchoolur.github.io/lightslider/dist/css/lightslider.min.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"/>
-<script src="http://sachinchoolur.github.io/lightslider/src/js/lightslider.js"/>
+<script src="//sachinchoolur.github.io/lightslider/src/js/lightslider.js" />
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
