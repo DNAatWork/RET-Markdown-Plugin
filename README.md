@@ -1,7 +1,3 @@
-<!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/style.css"/>
-<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
-<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
 
 
 
@@ -73,3 +69,13 @@ enabled: true
 - [ ] add options
 - [ ] Clean Code
 - [ ] Add theme css, rm defualt css
+
+
+<!-- HTML CODE-->
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/style.css"/>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
+<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
