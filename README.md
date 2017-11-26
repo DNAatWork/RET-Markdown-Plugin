@@ -1,7 +1,9 @@
 <!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/demo/style.css"/>
-<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/demo/jquery.js"/>
-<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/demo/lightslider.js"/>
+<link rel="stylesheet" type="text/css" href="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/style.css"/>
+<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/jquery.js"/>
+<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/lightslider.js"/>
+
+
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
