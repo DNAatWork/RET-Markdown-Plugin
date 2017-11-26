@@ -1,7 +1,7 @@
 <!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="/docs/style.css"/>
-<script src="/docs/jquery.js"></script>
-<script src="docs/lightslider.js"></script>
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/style.css"/>
+<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
+<script src="https://raw.githubusercontent.com/CarlosVegaMe/RET-Markdown-Plugin/master/docs/jquery.js"></script>
 
 
 
