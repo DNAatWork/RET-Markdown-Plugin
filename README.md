@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
-{{ "docs/demo/style.css" | relative_url }}
->>>>>>> 54b8f707ae5a7e60cc818ae228a2f845204e9eca
 <link rel="stylesheet" type="text/css" href="docs/styles.css"/>
+
 
 # ReT Md Editor Plugin (beta)
 
