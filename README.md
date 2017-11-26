@@ -4,20 +4,28 @@
   border-image: linear-gradient(red, yellow) 10;
   padding: 20px;
 }
+.border2 {  
+  border: 30px solid;
+  border-image: linear-gradient(red, yellow) 10;
+  padding: 20px;
+}
 </style>
 
 # ReT Md Editor Plugin (beta)
 
-![Full Screen Example](docs/img2.png)
+<img src="docs/img2.png" class="border"/>
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
 The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). REader Text-editor (ReT.md), is a markdown editor plugin for grav themes, inspired from TinyMCE Editor grav plugin and pandao/editor.md.
 
 ##  Inserting Images
-![Full Screen Example](docs/img3.png?id=border1)
+<img src="docs/img3.png" class="border"/>
+
 ##  Full Screen
 ![Full Screen Example](docs/img4.png?id=border1)
+<img src="docs/img4.png" class="border"/>
+
 
 ##  Installation
 
