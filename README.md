@@ -1,9 +1,5 @@
-{::nomarkdown}
-
 <!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="/docs/demo/style.css"/>
-
-{:/}
+<link rel="stylesheet" type="text/css" href="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/demo/style.css"/>
 
 
 # ReT Md Editor Plugin (beta)
