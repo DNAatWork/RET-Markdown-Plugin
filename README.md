@@ -1,10 +1,7 @@
 <!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/demo/style.css"/>
-<link type="text/css" rel="stylesheet" href="http://sachinchoolur.github.io/lightslider/dist/css/lightslider.min.css" />                  
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="http://sachinchoolur.github.io/lightslider/src/js/lightslider.js"></script>
-
-
+<link type="text/css" rel="stylesheet" href="http://sachinchoolur.github.io/lightslider/dist/css/lightslider.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"/>
+<script src="http://sachinchoolur.github.io/lightslider/src/js/lightslider.js"/>
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
@@ -14,18 +11,12 @@ The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
 <ul id="lightSlider">
   <li>
   <img src="docs/img2.png" class="slider-image" />
-      <h3>First Slide</h3>
-      <p>Lorem ipsum Cupidatat quis pariatur anim.</p>
   </li>
   <li>
-      <h3>Second Slide</h3>
-      <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
       <img src="docs/img3.png" class="slider-image" />
   </li>
   <li>
   <img src="docs/img4.png" class="slider-image" />
-      <h3>Second Slide</h3>
-      <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
   </li>
 </ul>
 
@@ -84,56 +75,6 @@ enabled: true
 
 <script type="text/javascript">
 $(document).ready(function() {
-    $("#lightSlider").lightSlider({
-        item: 3,
-        autoWidth: false,
-        slideMove: 1, // slidemove will be 1 if loop is true
-        slideMargin: 10,
-
-        addClass: '',
-        mode: "slide",
-        useCSS: true,
-        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-        easing: 'linear', //'for jquery animation',////
-
-        speed: 400, //ms'
-        auto: false,
-        loop: false,
-        slideEndAnimation: true,
-        pause: 2000,
-
-        keyPress: false,
-        controls: true,
-        prevHtml: '',
-        nextHtml: '',
-
-        rtl:false,
-        adaptiveHeight:false,
-
-        vertical:false,
-        verticalHeight:500,
-        vThumbWidth:100,
-
-        thumbItem:10,
-        pager: true,
-        gallery: false,
-        galleryMargin: 5,
-        thumbMargin: 5,
-        currentPagerPosition: 'middle',
-
-        enableTouch:true,
-        enableDrag:true,
-        freeMove:true,
-        swipeThreshold: 40,
-
-        responsive : [],
-
-        onBeforeStart: function (el) {},
-        onSliderLoad: function (el) {},
-        onBeforeSlide: function (el) {},
-        onAfterSlide: function (el) {},
-        onBeforeNextSlide: function (el) {},
-        onBeforePrevSlide: function (el) {}
-    });
+  $("#lightSlider").lightSlider();
 });
 </script>
