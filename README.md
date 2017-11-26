@@ -1,7 +1,7 @@
 <!-- HTML CODE-->
-<link rel="stylesheet" type="text/css" href="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/style.css"/>
-<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/jquery.js"/>
-<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/lightslider.js"/>
+<link rel="stylesheet" type="text/css" href="/docs/style.css"/>
+<script src="docs/jquery.js"></script>
+<script src="https://carlosvegame.github.io/RET-Markdown-Plugin/docs/lightslider.js"></script>
 
 
 
@@ -73,10 +73,3 @@ enabled: true
 - [ ] add options
 - [ ] Clean Code
 - [ ] Add theme css, rm defualt css
-
-
-<script type="text/javascript">
-$(document).ready(function() {
-  $("#lightSlider").lightSlider();
-});
-</script>
