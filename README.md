@@ -11,6 +11,15 @@ The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
 
 class: center, middle
 
+Slide 1 content
+???
+Slide 1 notes
+---
+Slide 2 content
+???
+Slide 2 notes
+
+
 # Title
 <img src="docs/img2.png" class="border1" alt="Main example of plugin"/>
 ---
