@@ -15,9 +15,9 @@
 The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). REader Text-editor (ReT.md), is a markdown editor plugin for grav themes, inspired from TinyMCE Editor grav plugin and pandao/editor.md.
 
 ##  Inserting Images
-![Full Screen Example](docs/img3.png?class=border1)
+![Full Screen Example](docs/img3.png?id=border1)
 ##  Full Screen
-![Full Screen Example](docs/img4.png?class=border1)
+![Full Screen Example](docs/img4.png?id=border1)
 
 ##  Installation
 
