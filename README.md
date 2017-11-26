@@ -1,15 +1,4 @@
-<style>
-.border1 {  
-  border: 30px solid;
-  border-image: linear-gradient(red, yellow) 10;
-  padding: 20px;
-}
-.border2 {  
-  border: 30px solid;
-  border-image: linear-gradient(red, yellow) 10;
-  padding: 20px;
-}
-</style>
+{{ "docs/demo/style.css" | relative_url }}
 
 # ReT Md Editor Plugin (beta)
 
