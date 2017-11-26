@@ -7,33 +7,34 @@
 The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). REader Text-editor (ReT.md), is a markdown editor plugin for grav themes, inspired from TinyMCE Editor grav plugin and pandao/editor.md.
 
 
-<textarea id="source">
+<div class="slider-holder">
+    <span id="slider-image-1"></span>
+    <span id="slider-image-2"></span>
+    <span id="slider-image-3"></span>
+    <div class="image-holder">
+        <img src="1.jpg" class="slider-image" />
+        <img src="2.jpg" class="slider-image" />
+        <img src="3.jpg" class="slider-image" />
+    </div>
+    <div class="button-holder">
+        <a href="#slider-image-1" class="slider-change"></a>
+        <a href="#slider-image-2" class="slider-change"></a>
+        <a href="#slider-image-3" class="slider-change"></a>
+    </div>
+</div>
 
-class: center, middle
-
-Slide 1 content
-???
-Slide 1 notes
----
-Slide 2 content
-???
-Slide 2 notes
 
 
 # Title
 <img src="docs/img2.png" class="border1" alt="Main example of plugin"/>
----
 
 ## Full Screen
 <img src="docs/img4.png" class="border2" alt="Full screen mode."/>
 
 
----
-
 ## Inserting Images
 <img src="docs/img3.png" class="border2" alt="adding images using ReT Md Editor"/>
 
-</textarea>
 
 
 
@@ -84,9 +85,3 @@ enabled: true
 - [ ] add options
 - [ ] Clean Code
 - [ ] Add theme css, rm defualt css
-
-<script src="https://remarkjs.com/downloads/remark-latest.min.js">
-</script>
-<script>
-  var slideshow = remark.create();
-</script>
