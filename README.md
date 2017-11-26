@@ -1,4 +1,10 @@
+{::nomarkdown}
+
+<!-- HTML CODE-->
 <link rel="stylesheet" type="text/css" href="/docs/demo/style.css"/>
+
+{:/}
+
 
 # ReT Md Editor Plugin (beta)
 
@@ -17,6 +23,7 @@ The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
 ## Installation
 
 Installing the ReT Md Editor plugin can be done in one of two ways. The GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file.
+
 
 ### GPM Installation (Preferred)
 
