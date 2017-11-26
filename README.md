@@ -1,4 +1,4 @@
-{{ "docs/demo/style.css" | relative_url }}
+<link rel="stylesheet" type="text/css" href="docs/styles.css"/>
 
 # ReT Md Editor Plugin (beta)
 
