@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/docs/demo/style.css"/>
+<link rel="stylesheet" type="text/css" href="docs/demo/style.css"/>
 
 # ReT Md Editor Plugin (beta)
 
