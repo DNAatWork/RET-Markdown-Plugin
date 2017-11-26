@@ -12,9 +12,9 @@ The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
     <span id="slider-image-2"></span>
     <span id="slider-image-3"></span>
     <div class="image-holder">
-        <img src="1.jpg" class="slider-image" />
-        <img src="2.jpg" class="slider-image" />
-        <img src="3.jpg" class="slider-image" />
+        <img src="docs/img2.png" class="slider-image" />
+        <img src="docs/img3.png" class="slider-image" />
+        <img src="docs/img4.png" class="slider-image" />
     </div>
     <div class="button-holder">
         <a href="#slider-image-1" class="slider-change"></a>
@@ -22,19 +22,6 @@ The **ReT Md Editor** Plugin is for [Grav CMS](http://github.com/getgrav/grav). 
         <a href="#slider-image-3" class="slider-change"></a>
     </div>
 </div>
-
-
-
-# Title
-<img src="docs/img2.png" class="border1" alt="Main example of plugin"/>
-
-## Full Screen
-<img src="docs/img4.png" class="border2" alt="Full screen mode."/>
-
-
-## Inserting Images
-<img src="docs/img3.png" class="border2" alt="adding images using ReT Md Editor"/>
-
 
 
 
